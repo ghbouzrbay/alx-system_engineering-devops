@@ -1,17 +1,17 @@
 #!/usr/bin/env bash
-# This script is displaying "Best School" 10 times
+#nested loop stuff
 
-i=1
-j=0
-while [ "$j" -le 12 ]
+hours=0
+minutes=1
+while [ $hours -ne 13 ]
 do
-    echo "Hour: $j"
-    i=1
-    while [ "$i" -le 59 ]
+    echo "Hour: $hours"
+    ((hours++))
+    while [ $minutes -ne 60 ]
     do
-        echo "$i"
-	i=$((i + 1))
+	echo $minutes
+	((minutes++))
     done
-    j=$((j + 1))
+    ((minutes = 1))
 done
-i=$i
+
