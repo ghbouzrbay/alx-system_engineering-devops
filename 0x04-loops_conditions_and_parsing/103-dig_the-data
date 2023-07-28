@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
-# This script is displaying "Best School" 10 times
+#This script parse through the log file and print the ip and http status
 
+awk -F' ' '{ print $1, $9 }' apache-access.log | sort | uniq -c | sort -rn
 
-file_h="apache-access.log"
-awk -F' ' '{ print $1, $9}' $file_h | sort | uniq -c| sort -nr
