@@ -1,22 +1,18 @@
 #!/usr/bin/env bash
-# This script is displaying "Best School" 10 times
+#FizzBuzz
 
-
-i=1
-while [ "$i" -le 100 ]
-do
-    if [ $((i % 15)) -eq 0 ]
+for (( i=1; i<101; i++ ))
+    do
+    if [ $(( i % 15)) -eq 0 ]
     then
-        echo "FizzBuzz"
-    elif [ $((i % 5)) -eq 0 ]
+	echo "FizzBuzz"
+    elif [ $(( i % 3 )) -eq 0 ]
     then
-        echo "Buzz"
-    elif [ $((i % 3)) -eq 0 ]
+	echo "Fizz"
+    elif [ $(( i % 5 )) -eq 0 ]
     then
-        echo "Fizz"
+	echo "Buzz"
     else
-        echo "$i"
+	echo "$i"
     fi
-    i=$((i + 1))
 done
-i=$i
