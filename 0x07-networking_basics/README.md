@@ -1,1 +1,54 @@
-https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2020/9/0fc96bd99faa7941b18bcae4c5f90c6acd11791d.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20230802%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230802T173336Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=626a3af25fc656842326b44c49a9704769a6fa95565ec9f6c8ddd8b863d86786
+***Learning Objectives***
+
++ OSI Model
+
+  *What it is*
+
+  *How many layers it has*
+
+  *How it is organized*
+
++ What is a LAN
+
+  *Typical usage*
+
+  *Typical geographical size*
+
++ What is a WAN
+
+   *Typical usage*
+
+   *Typical geographical size*
+
++ What is the Internet
+
+   *What is an IP address*
+
+   *What are the 2 types of IP address*
+
+   *What is localhost*
+
+   *What is a subnet*
+
+   *Why IPv6 was created*
+
+
+
+
+
+***Resources***
+
++ OSI model
++ Different types of network
++ LAN network
++ WAN network
++ Internet
++ MAC address
++ What is an IP address
++ Private and public address
++ IPv4 and IPv6
++ Localhost
++ TCP and UDP
++ TCP/UDP ports List
++ What is ping /ICMP
++ Positional parameters
