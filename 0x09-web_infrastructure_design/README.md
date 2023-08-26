@@ -1,6 +1,6 @@
 ## Concepts 
 
-+ For this project, we expect you to look at these concepts: 
+For this project, we expect you to look at these concepts: 
 + DNS Monitoring
 + Web Server Network basics
 + Load balancer
@@ -40,7 +40,7 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 
 **General**
 
-+ A README.md file, at the root of the folder of the project, is mandatory
++ A ```README.md``` file, at the root of the folder of the project, is mandatory
 + For each task, once you are done whiteboarding (on a whiteboard, piece of paper or software or your choice), take a picture/screenshot of your diagram
 + This project will be manually reviewed:
 + As each task is completed, the name of that task will turn green
