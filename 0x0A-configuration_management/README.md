@@ -17,7 +17,7 @@ Obviously writing Puppet code for your infrastructure requires an investment of 
 
 
 <p>
- <img src="https://twitter.com/devopsreact/status/836971570136375296">
+ <img src=" https://twitter.com/devopsreact/status/836971570136375296">
 </p>
 
 ## Resources
