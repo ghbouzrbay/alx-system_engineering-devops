@@ -22,9 +22,9 @@
 
 **man or help:**
 
-    ** ```ssh```
-    ** ```ssh-keygen```
-    ** ```env```
++ ```ssh```
++ ```ssh-keygen```
++ ```env```
 
 ## Learning Objectives
 
