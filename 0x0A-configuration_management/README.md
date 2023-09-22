@@ -42,7 +42,7 @@ Obviously writing Puppet code for your infrastructure requires an investment of 
 + Your Puppet manifests first line must be a comment explaining what the Puppet manifest is about
 + Your Puppet manifests files must end with the extension ```.pp```
 
-##Note on Versioning 
+## Note on Versioning 
 
 **Your Ubuntu 20.04 VM should have Puppet 5.5 preinstalled.**
 
