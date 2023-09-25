@@ -1,4 +1,7 @@
-## Web Server
+## Web ServerOOA
+<p>
+   <img src= "https://github.com/ghbouzrbay/alx-system_engineering-devops/blob/master/0x0C-web_server/PIC/web_server.png">
+</p>
 
 ## What is a Child Process?
 
@@ -17,7 +20,7 @@ $ ps axf
 
 In this project, some of the tasks will be graded on 2 aspects:
 
-	1-Is your ```web-01``` server configured according to requirements
+	1-Is your  ```web-01```  server configured according to requirements
 	2-Does your answer file contain a Bash script that automatically performs commands to configure an Ubuntu machine to fit requirements (meaning without any human intervention)
 
 For example, if I need to create a file ```/tmp/test``` containing the string ```hello world``` and modify the configuration of Nginx to listen on port ```8080``` instead of ```80```, I can use emacs on my server to create the file and to modify the Nginx configuration file ```/etc/nginx/sites-enabled/default```.
@@ -37,6 +40,10 @@ As you can tell, I am not using ```emacs``` to perform the task in my answer fil
 
 A good Software Engineer is a [lazy Software Engineer.](https://www.techwell.com/techwell-insights/2013/12/why-best-programmers-are-lazy-and-act-dumb)
 
+<p>
+   <img src= "https://github.com/ghbouzrbay/alx-system_engineering-devops/blob/master/0x0C-web_server/PIC/code.png">
+</p>
+
 Tips: to test your answer Bash script, feel free to reproduce the checker environment:
 
 + start a ```Ubuntu 16.04``` sandbox
@@ -50,10 +57,10 @@ Tips: to test your answer Bash script, feel free to reproduce the checker enviro
 + [How the web works](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works)
 + [Nginx](https://en.wikipedia.org/wiki/Nginx)
 + [How to Configure Nginx](https://www.digitalocean.com/community/tutorials/how-to-set-up-nginx-server-blocks-virtual-hosts-on-ubuntu-16-04)
-+ [Child process concept page]() (What is a Child Process?)
++ [Child process concept page](https://github.com/ghbouzrbay/alx-system_engineering-devops/blob/master/0x0C-web_server/README.md) (What is a Child Process?)
 + [Root and sub domain](https://landingi.com/help/domains-vs-subdomains/)
-+ (HTTP requests](https://www.tutorialspoint.com/http/http_methods.htm)
-+ (HTTP redirection](https://moz.com/learn/seo/redirection)
++ [HTTP requests](https://www.tutorialspoint.com/http/http_methods.htm)
++ [HTTP redirection](https://moz.com/learn/seo/redirection)
 + [Not found HTTP response code](https://en.wikipedia.org/wiki/HTTP_404)
 + [Logs files on Linux](https://www.cyberciti.biz/faq/ubuntu-linux-gnome-system-log-viewer/)
 
@@ -64,8 +71,8 @@ Tips: to test your answer Bash script, feel free to reproduce the checker enviro
 
 **man or help:**
 
-+ scp
-+ curl
++ ```scp```
++ ```curl```
 
 ## Learning Objectives
 
@@ -85,10 +92,10 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 
 **DNS Record Types**
 
-+ A
-+ CNAME
-+ TXT
-+ MX
++ ```A```
++ ```CNAME```
++ ```TXT```
++ ```MX```
 
 ## Requirements
 
