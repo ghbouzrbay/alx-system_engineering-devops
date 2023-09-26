@@ -4,9 +4,23 @@
 #+    Returns a page containing "Hello World!" when queried
 #++    at the root with a curl GET request.
 
-sudo apt-get -y update
+# Update the package list and install Nginx
+sudo apt-get update
 sudo apt-get -y install nginx
-sudo ufw allow "Nginx HTTP"
-sudo chown -R $USER:$USER /var/www/html/index.nginx-debian.html
-sudo echo "Hello World!" > /var/www/html/index.nginx-debian.html
-sudo service nginx restart
+
+# Check if Nginx is running, and if not, start it
+if ! ps aux | grep -q '[n]ginx'; then
+    sudo /etc/init.d/nginx start
+fi
+
+# Configure Nginx to listen on port 80
+sudo sed -i 's/80 default_server/80 default_server/g' /etc/nginx/sites-available/default
+
+# Create an HTML file with the content "Hello World!"
+echo '<html><body>Hello World!</body></html>' | sudo tee /var/www/html/index.html
+
+# Restart Nginx to apply the changes
+sudo /etc/init.d/nginx restart
+
+# Exit with success status
+exit 0
