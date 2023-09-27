@@ -5,8 +5,8 @@
 
 For this project, we expect you to look at these concepts:
 
-+ Network basics
-+ ***Docker***
+### Network basics
+### Docker
 
 	*Readme*
 		+ What is Docker and why is it popular?
@@ -70,12 +70,15 @@ CONTAINER ID        IMAGE               COMMAND             CREATED             
 vagrant@ubuntu-xenial:~$
 ```
 
-## Web stack debugging
+### Web stack debugging
 
-### Intro
+**Intro**
 
 Debugging usually takes a big chunk of a software engineer’s time. The art of debugging is tough and it takes years, even decades to master, and that is why seasoned software engineers are the best at it… experience. They have seen lots of broken code, buggy systems, weird edge cases and race conditions.
 
+<p>
+   <img src="https://github.com/ghbouzrbay/alx-system_engineering-devops/blob/master/0x0D-web_stack_debugging_0/piccc.png">
+</p>
 
 ## Non-exhaustive guide to debugging
 
@@ -170,6 +173,9 @@ Is there anything interesting in the logs? look for log files in /var/log/ and t
 Debugging is fun
 Debugging can be frustrating, but it will definitely be part of your job, it requires experience and methodology to become good at it. The good news is that bugs are never going away, and the more experienced you become, trickier bugs will be assigned to you! Good luck :)
 
+<p>
+   <img src="https://github.com/ghbouzrbay/alx-system_engineering-devops/blob/master/0x0D-web_stack_debugging_0/debugging.png"
+</p>
 
 ## Background Context
 
@@ -238,18 +244,18 @@ For this project you will be given a container which you can use to solve the ta
 
 **man or help:**
 
-```curl```
++ ```curl```
 
 ## Requirements
 
 **General**
 
-+ Allowed editors: vi, vim, emacs
-+ All your files will be interpreted on Ubuntu 14.04 LTS
++ Allowed editors: ```vi```, ```vim```, ```emacs```
++ All your files will be interpreted on ```Ubuntu 14.04 LTS```
 + All your files should end with a new line
-+ A README.md file, at the root of the folder of the project, is mandatory
++ A ```README.md``` file, at the root of the folder of the project, is mandatory
 + All your Bash script files must be executable
 + Your Bash scripts must pass Shellcheck without any error
 + Your Bash scripts must run without error
-+ The first line of all your Bash scripts should be exactly #!/usr/bin/env bash
++ The first line of all your Bash scripts should be exactly ```#!/usr/bin/env bash```
 + The second line of all your Bash scripts should be a comment explaining what is the script doing
