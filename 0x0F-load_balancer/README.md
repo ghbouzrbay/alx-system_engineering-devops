@@ -1,11 +1,11 @@
 # Load balancer
 
 <p> 
-   <imag src="">
+   <imag src="https://github.com/ghbouzrbay/alx-system_engineering-devops/blob/master/0x0F-load_balancer/pic1.png">
 </p>
 
 <p>
-   <img src="">
+   <img src="https://github.com/ghbouzrbay/alx-system_engineering-devops/blob/master/0x0F-load_balancer/pic2.png">
 </p>
 
 ## Background Context
