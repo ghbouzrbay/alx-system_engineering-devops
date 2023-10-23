@@ -7,12 +7,12 @@ import requests
 import sys
 
 
-baseurl = 'https://jsonplaceholder.typicode.com'
+base_url = 'https://jsonplaceholder.typicode.com'
 
 if __name__ == "__main__":
 
     userid = sys.argv[1]
-    userurl = '{}/users?id={}'.format(baseurl, userid)
+    userurl = '{}/users?id={}'.format(base_url, userid)
     response = requests.get(userurl)
     data = response.text
     data = json.loads(data)
