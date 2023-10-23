@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """script that fetches info about a given employee using an api
-	and exports it in csv format"""
+and exports it in csv format"""
 
 import json
 import requests
@@ -10,7 +10,6 @@ import sys
 base_url = 'https://jsonplaceholder.typicode.com'
 
 if __name__ == "__main__":
-
     user_id = sys.argv[1]
     user_url = '{}/users?id={}'.format(base_url, user_id)
     response = requests.get(user_url)
